@@ -1,0 +1,21 @@
+.header {
+    background-color: $darker-blue;
+    color: $white;
+    padding: $medium-size 0;
+    margin-bottom: $xxlarge-size
+}
+
+// BEM => Block Element Modifier
+//333745
+
+.header__title{
+    font-size: $xlarge-size;
+    margin: 0;
+}
+
+.header__subtitle {
+    font-size: $medium-size;
+    color: $off-white;
+    margin: 0;
+    font-weight: 500;
+}
